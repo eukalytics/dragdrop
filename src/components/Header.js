@@ -13,7 +13,7 @@ export default function Header({selectedLanguage}) {
     return (
         <DropTarget targetKey="header" onDragEnter={handleActiveDT} onDragLeave={handleInactiveDT} onHit={handleInactiveDT}>
             <h1 className={`px-4 lg:px-10 text-5xl font-bold text-center pt-10 uppercase ${DTClasses}`}>
-                Put <span className="border-2 border-dashed border-gray-600 p-2 mb-2 inline-block">{selectedLanguage}</span> in the bin
+                Put <span className="border-2 border-dashed border-gray-600 p-2 mb-2 inline-block">{selectedLanguage ? selectedLanguage : '____'}</span> in the bin
             </h1>
         </DropTarget>
     )
