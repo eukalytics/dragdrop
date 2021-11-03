@@ -1,7 +1,14 @@
+import { useState } from "react";
+import Header from "./components/Header";
+import Languages from "./components/Languages";
 export default function App() {
+
+  const [selectedLanguage, setSelectedLanguage] = useState('____');
+
   return (
-    <div className="App">
-      <h1 className="text-blue-600 text-5xl font-bold text-center mt-10">react-drag-drop-container</h1>
+    <div className="App bg-black h-screen">
+        <Header selectedLanguage={selectedLanguage}/>
+        <Languages selectedLanguage={selectedLanguage} setSelectedLangauge={setSelectedLanguage} />
     </div>
   );
 }
