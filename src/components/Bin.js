@@ -11,7 +11,7 @@ export default function Bin() {
         setDtActive(false);
     }
     return (
-        <div className="mt-60">
+        <div>
             <DropTarget targetKey="bin" onDragEnter={handleActiveDT} onDragLeave={handleInactiveDT} onHit={handleInactiveDT}>
                 <div className={`h-4 w-16 bg-green-400 mx-auto ${dtActive ? 'bg-pink-400' : 'bg-green-300'}`}>
                 </div>
