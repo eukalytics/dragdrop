@@ -7,11 +7,17 @@ export default function App() {
 
   const [selectedLanguage, setSelectedLanguage] = useState(false);
   const [rubbishVis, setRubbishVis] = useState(true)
-
+  
   return (
     <div className="App bg-black h-screen">
-        <Header selectedLanguage={selectedLanguage}/>
-        <Languages selectedLanguage={selectedLanguage} setSelectedLangauge={setSelectedLanguage} />
+        <Header 
+          selectedLanguage={selectedLanguage}
+          setRubbishVis={setRubbishVis}   
+        />
+        <Languages 
+          selectedLanguage={selectedLanguage} 
+          setSelectedLangauge={setSelectedLanguage}
+        />
         {selectedLanguage &&
           <div>
             <Rubbish 
