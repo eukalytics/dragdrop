@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dragdrop/static/css/main.eed05db5.chunk.css",
+    "main.js": "/dragdrop/static/js/main.0128ac7c.chunk.js",
+    "main.js.map": "/dragdrop/static/js/main.0128ac7c.chunk.js.map",
+    "runtime-main.js": "/dragdrop/static/js/runtime-main.dcdccdeb.js",
+    "runtime-main.js.map": "/dragdrop/static/js/runtime-main.dcdccdeb.js.map",
+    "static/js/2.8024dddc.chunk.js": "/dragdrop/static/js/2.8024dddc.chunk.js",
+    "static/js/2.8024dddc.chunk.js.map": "/dragdrop/static/js/2.8024dddc.chunk.js.map",
+    "index.html": "/dragdrop/index.html",
+    "static/css/main.eed05db5.chunk.css.map": "/dragdrop/static/css/main.eed05db5.chunk.css.map",
+    "static/js/2.8024dddc.chunk.js.LICENSE.txt": "/dragdrop/static/js/2.8024dddc.chunk.js.LICENSE.txt",
+    "static/media/java.b3bdc5ec.png": "/dragdrop/static/media/java.b3bdc5ec.png",
+    "static/media/php.b7004986.png": "/dragdrop/static/media/php.b7004986.png",
+    "static/media/vba.5edee168.png": "/dragdrop/static/media/vba.5edee168.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcdccdeb.js",
+    "static/js/2.8024dddc.chunk.js",
+    "static/css/main.eed05db5.chunk.css",
+    "static/js/main.0128ac7c.chunk.js"
+  ]
+}
